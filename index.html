@@ -8,15 +8,18 @@
 </head>
 <body>
     <h1>Rock Paper Scissors</h1>
+    <div class="result">
+        <p  id="res"> Choose anyone of three choices.</p>
+     </div>
     <div class="choice">
     <div class ="choices" id="stone">
-       <button id="rock"><img id="rockimg" src="/C:\Users\rajan\OneDrive\Desktop\classroom\Rock Paper Scissors\images\rock.jpg" ></button> 
+       <button id="rock"><img id="rockimg" src="./rock.jpg" ></button> 
     </div>
     <div class ="choices" id="paper">
-       <button id="paper"><img id="paperimg" src="C:\Users\rajan\OneDrive\Desktop\classroom\Rock Paper Scissors\images\paper.jpg"></button>
+       <button id="paper"><img id="paperimg" src="./paper.jpg"></button>
     </div>
     <div class ="choices" id="scissor">
-       <button id="scissor"><img id="scissorimg" src="C:\Users\rajan\OneDrive\Desktop\classroom\Rock Paper Scissors\images\scissor.jpg"></img></button>
+       <button id="scissor"><img id="scissorimg" src="./scissor.jpg"></img></button>
     </div>
     </div>
 <div id="select">
@@ -28,9 +31,7 @@
 </div>
 </div>
 
-    <div class="result">
-       <p  id="res"> Choose anyone of three choices.</p>
-    </div>
+    
 
 
 <div class="score-board">
@@ -38,13 +39,14 @@
         <p id="user-score">0</p>
         <p>user</p>
     </div>
+    <div id="reset">
+        <button id="resetbtn">Reset score</button>
+    </div>
     <div id="comp">
         <p id="comp-score">0</p>
         <p>computer</p>
     </div>
-    <div id="reset">
-        <button id="resetbtn">Reset score</button>
-    </div>
+    
 </div>
     <script src="app.js"></script>
 </body>

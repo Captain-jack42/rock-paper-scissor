@@ -17,6 +17,8 @@ choice.forEach((choices) => {
 });
 
 reset.addEventListener("click", () => {
+    compscore = 0;
+    userscore = 0; 
     computerscore.innerText = "0";
     userscores.innerText = "0";
     compsel.innerText = "None";
